@@ -217,10 +217,10 @@ def desenha_frutas():
         if img:
             screen.blit(img, (x,y))
 
-# Atualiza dificuldade a cada 30 segundos
+# Atualiza dificuldade a cada  segundos
 def atualiza_dificuldade(tempo):
     global frutas_vel, frutas_max_qtd
-    intervalos = tempo // 30
+    intervalos = tempo // 12
     frutas_vel = min(frutas_vel_inicial + intervalos * 0.5, frutas_vel_max)
     frutas_max_qtd = min(1 + intervalos, 10)
 
