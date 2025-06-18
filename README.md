@@ -17,3 +17,7 @@ Seu propósito é pegar o maximo de frutas dentro de um grande tempo sem deixar 
 *Python* - linguagem usada para a criação.
 
 *Pygame* - Criação de como funcionaria e ambientes dentro do jogo.
+
+# Testado por:
+
+Kauê Anacleto Saggiorato / RA: 1137645
